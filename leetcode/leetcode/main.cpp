@@ -1,6 +1,7 @@
 #include <iostream>
 #include "p7.h"
 #include "p9.h"
+#include "P13.h"
 
 void test_p7()
 {
@@ -19,9 +20,18 @@ void test_p9()
 	std::cout << std::boolalpha << S.IsPalindrome(x) << std::endl;
 }
 
+void test_p13()
+{
+	Solution_13 S;
+	string mystr = "MCMXCIV"; // string头文件在p13.h中包含
+	printf("test_p13:\n");
+	std::cout << mystr << " 对应的数字是 " << S.romanToInt(mystr) << std::endl;
+}
+
 int main()
 {
 	test_p7();
 	test_p9();
+	test_p13();
 	return 0;
 }
