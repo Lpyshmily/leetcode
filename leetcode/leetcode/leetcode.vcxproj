@@ -79,7 +79,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="P13.h" />
+    <ClInclude Include="p13.h" />
     <ClInclude Include="p7.h" />
     <ClInclude Include="p9.h" />
   </ItemGroup>

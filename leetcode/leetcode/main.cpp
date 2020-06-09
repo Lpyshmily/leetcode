@@ -1,7 +1,7 @@
 #include <iostream>
 #include "p7.h"
 #include "p9.h"
-#include "P13.h"
+#include "p13.h"
 
 void test_p7()
 {
