@@ -9,7 +9,7 @@ public:
 		int sum = 0;
 		int preNum = getValue(s[0]);
 		int num;
-		for (int i = 1; i < s.length(); ++i)
+		for (unsigned int i = 1; i < s.length(); ++i)
 		{
 			num = getValue(s[i]);
 			if (preNum < num)

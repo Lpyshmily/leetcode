@@ -29,5 +29,11 @@
     <ClInclude Include="p13.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="p14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
