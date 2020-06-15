@@ -82,6 +82,7 @@
     <ClInclude Include="p13.h" />
     <ClInclude Include="p14.h" />
     <ClInclude Include="p20.h" />
+    <ClInclude Include="p21.h" />
     <ClInclude Include="p7.h" />
     <ClInclude Include="p9.h" />
   </ItemGroup>
