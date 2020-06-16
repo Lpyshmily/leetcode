@@ -38,5 +38,11 @@
     <ClInclude Include="p21.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="p26.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p27.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
