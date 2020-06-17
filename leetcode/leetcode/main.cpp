@@ -4,6 +4,7 @@
 #include "p13.h"
 #include "p14.h"
 #include "p20.h"
+#include "p28.h"
 
 void test_p7()
 {
@@ -48,6 +49,15 @@ void test_p20()
 	std::cout << std::boolalpha << S.isValid(s) << std::endl;
 }
 
+void test_p28()
+{
+	Solution_28 S;
+	string str1 = "aaaaa";
+	string str2 = "bba";
+	printf("test_p28:\n");
+	std::cout << S.strStr(str1, str2) << std::endl;
+}
+
 int main()
 {
 	test_p7();
@@ -55,5 +65,6 @@ int main()
 	test_p13();
 	test_p14();
 	test_p20();
+	test_p28();
 	return 0;
 }
