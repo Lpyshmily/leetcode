@@ -87,6 +87,8 @@
     <ClInclude Include="p27.h" />
     <ClInclude Include="p28.h" />
     <ClInclude Include="p35.h" />
+    <ClInclude Include="p38.h" />
+    <ClInclude Include="p53.h" />
     <ClInclude Include="p7.h" />
     <ClInclude Include="p9.h" />
   </ItemGroup>

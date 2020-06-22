@@ -5,6 +5,8 @@
 #include "p14.h"
 #include "p20.h"
 #include "p28.h"
+#include "p38.h"
+#include "p53.h"
 
 void test_p7()
 {
@@ -58,6 +60,23 @@ void test_p28()
 	std::cout << S.strStr(str1, str2) << std::endl;
 }
 
+void test_p38()
+{
+	Solution_38 S;
+	printf("test_p38:\n");
+	for (int i = 1; i <= 10; ++i)
+		std::cout << S.countAndSay(i) << std::endl;
+}
+
+void test_p53()
+{
+	Solution_53 S;
+	printf("test_p53:\n");
+	int a[9] = {4, -5, 10, -1, 2, 3, -2, -1, 5};
+	vector<int> v(a, a+9);
+	std::cout << S.maxSubArray(v) << std::endl;
+}
+
 int main()
 {
 	test_p7();
@@ -66,5 +85,7 @@ int main()
 	test_p14();
 	test_p20();
 	test_p28();
+	test_p38();
+	test_p53();
 	return 0;
 }
