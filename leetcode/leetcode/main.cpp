@@ -7,6 +7,8 @@
 #include "p28.h"
 #include "p38.h"
 #include "p53.h"
+#include "p58.h"
+#include "p66.h"
 
 void test_p7()
 {
@@ -77,6 +79,26 @@ void test_p53()
 	std::cout << S.maxSubArray(v) << std::endl;
 }
 
+void test_p58()
+{
+	Solution_58 S;
+	printf("test_p58:\n");
+	string str = "ast tmd  ";
+	std::cout << S.lengthOfLastWord(str) << std::endl;
+}
+
+void test_p66()
+{
+	Solution_66 S;
+	printf("test_p66:\n");
+	int a[3] = {9, 9, 9};
+	vector<int> v1(a, a+3);
+	vector<int> v2(S.plusOne(v1));
+	for (int i = 0; i < v2.size(); ++i)
+		printf("%d\t", v2[i]);
+	printf("\n");
+}
+
 int main()
 {
 	test_p7();
@@ -87,5 +109,7 @@ int main()
 	test_p28();
 	test_p38();
 	test_p53();
+	test_p58();
+	test_p66();
 	return 0;
 }

@@ -56,5 +56,11 @@
     <ClInclude Include="p53.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="p58.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p66.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
