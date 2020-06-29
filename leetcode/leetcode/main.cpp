@@ -9,6 +9,8 @@
 #include "p53.h"
 #include "p58.h"
 #include "p66.h"
+#include "p67.h"
+#include "p69.h"
 
 void test_p7()
 {
@@ -94,9 +96,25 @@ void test_p66()
 	int a[3] = {9, 9, 9};
 	vector<int> v1(a, a+3);
 	vector<int> v2(S.plusOne(v1));
-	for (int i = 0; i < v2.size(); ++i)
+	for (unsigned int i = 0; i < v2.size(); ++i)
 		printf("%d\t", v2[i]);
 	printf("\n");
+}
+
+void test_p67()
+{
+	Solution_67 S;
+	string str1 = "1010", str2 = "1011";
+	printf("test_p67:\n");
+	std::cout << S.addBinary(str1, str2) << std::endl;
+}
+
+void test_p69()
+{
+	Solution_69 S;
+	printf("test_p69:\n");
+	int num0 = 80;
+	std::cout << S.mySqrt(num0) << std::endl;
 }
 
 int main()
@@ -111,5 +129,7 @@ int main()
 	test_p53();
 	test_p58();
 	test_p66();
+	test_p67();
+	test_p69();
 	return 0;
 }
