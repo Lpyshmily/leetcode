@@ -94,6 +94,7 @@
     <ClInclude Include="p67.h" />
     <ClInclude Include="p69.h" />
     <ClInclude Include="p7.h" />
+    <ClInclude Include="p70.h" />
     <ClInclude Include="p9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -11,6 +11,7 @@
 #include "p66.h"
 #include "p67.h"
 #include "p69.h"
+#include "p70.h"
 
 void test_p7()
 {
@@ -117,6 +118,14 @@ void test_p69()
 	std::cout << S.mySqrt(num0) << std::endl;
 }
 
+void test_p70()
+{
+	Solution_70 S;
+	printf("test_p70:\n");
+	int n = 4;
+	std::cout << S.climbStairs(n) << std::endl;
+}
+
 int main()
 {
 	test_p7();
@@ -131,5 +140,6 @@ int main()
 	test_p66();
 	test_p67();
 	test_p69();
+	test_p70();
 	return 0;
 }

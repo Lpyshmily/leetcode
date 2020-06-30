@@ -16,3 +16,7 @@
 ## p67
 
 * C++ string 可以使用vector的某些方法，如`push_back()`
+
+## p70
+
+* 动态规划
